@@ -47,7 +47,7 @@ IB_DESIGNABLE
 /** Holds all selectors on the canvas */
 @property (nonatomic, readonly) NSArray *selectors;
 /** Determines the canvas */
-@property (atomic) IBOutlet MSSCanvas* view;
+//@property (atomic) IBOutlet MSSCanvas* view;
 /** Determines the chosen SelectorStyle */
 @property (nonatomic) IBOutlet MSSSelectorStyle *selectorStyle;
 /** Determines the chosen HandleStyle */
